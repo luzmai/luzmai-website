@@ -3,7 +3,7 @@ const nextConfig = {
   // Static export configuration for Azure Static Web Apps
   output: 'export',
   trailingSlash: true,
-  distDir: 'build',
+  distDir: 'out',
   
   eslint: {
     ignoreDuringBuilds: true,
