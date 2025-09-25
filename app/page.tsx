@@ -4,6 +4,7 @@ import Link from "next/link"
 import Particles from "@/components/particles"
 import { Card } from "@/components/card"
 import { motion } from "framer-motion"
+import { LuzmaiLogo } from "@/components/logo"
 
 // const navigation = [
 //   { name: "Acerca de", href: "#about" },
@@ -43,26 +44,7 @@ export default function Home() {
           ease: [0.25, 0.46, 0.45, 0.94]
         }}
       >
-        <motion.div 
-          className="py-3.5 px-0.5 cursor-default"
-          initial={{ opacity: 0, y: 15, filter: "drop-shadow(0 0 20px rgba(251, 191, 36, 0.5))" }}
-          animate={{ opacity: 0.95, y: 0, filter: "drop-shadow(0 0 20px rgba(251, 191, 36, 0.5))" }}
-          transition={{ 
-            duration: 2,
-            delay: 0.6,
-            ease: "easeOut"
-          }}
-          whileHover={{ 
-            scale: 1.05,
-            filter: "drop-shadow(0 0 20px rgba(251, 191, 36, 0.5))"
-          }}
-        >
-          <img
-            src="/logo-luzmai.svg"
-            alt="Luzmai Logo"
-            className="w-48 sm:w-64 md:w-72 lg:w-80 h-auto"
-          />
-        </motion.div>
+        <LuzmaiLogo className="w-48 sm:w-64 md:w-72 lg:w-80 h-auto" />
         <motion.div 
           className="mt-2"
           initial={{ opacity: 0 }}
