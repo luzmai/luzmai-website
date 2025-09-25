@@ -1,7 +1,6 @@
 "use client"
 
 import Link from "next/link"
-import Image from "next/image"
 import Particles from "@/components/particles"
 import { Card } from "@/components/card"
 import { motion } from "framer-motion"
