@@ -212,7 +212,7 @@
   }
   body {
     /* Dark gradient background from blue to magenta */
-    background: linear-gradient(135deg, #0f0f23 0%, #1a0b2e 25%, #2d1b69 50%, #4c1d95 75%, #7c2d92 100%);
+    background: linear-gradient(135deg, #0f0f23 0%, #21142F 25%, #21142F 50%, #4c1d95 75%, #7c2d92 100%);
     @apply text-white min-h-screen;
   }
 }
