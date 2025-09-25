@@ -58,13 +58,10 @@ export default function Home() {
             filter: "drop-shadow(0 0 20px rgba(251, 191, 36, 0.5))"
           }}
         >
-          <Image
+          <img
             src="/logo-luzmai.svg"
             alt="Luzmai Logo"
-            width={300}
-            height={150}
             className="w-48 sm:w-64 md:w-72 lg:w-80 h-auto"
-            priority
           />
         </motion.div>
         <motion.div 
