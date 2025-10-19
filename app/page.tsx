@@ -44,7 +44,7 @@ export default function Home() {
           ease: [0.25, 0.46, 0.45, 0.94]
         }}
       >
-        <LuzmaiLogo className="w-48 sm:w-64 md:w-72 lg:w-80 h-auto" />
+        <LuzmaiLogo className="w-32 sm:w-48 md:w-64 lg:w-72 h-auto" />
         <motion.div 
           className="mt-2"
           initial={{ opacity: 0 }}
@@ -55,8 +55,7 @@ export default function Home() {
         </motion.div>
       </motion.div>
 
-      {/* Bottom divider */}
-      <div className="hidden w-full max-w-4xl h-px mt-10 animate-glow md:block animate-fade-right bg-gradient-to-r from-transparent via-yellow-400/50 to-transparent" />
+      {/* <div className="hidden w-full max-w-4xl h-px mt-10 animate-glow md:block animate-fade-right bg-gradient-to-r from-transparent via-yellow-400/50 to-transparent" /> */}
 
       {/* Description */}
       <div className="my-16 text-center animate-fade-in max-w-2xl px-6">
